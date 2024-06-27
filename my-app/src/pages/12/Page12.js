@@ -35,6 +35,7 @@ const Page12 = () => {
   return (
     <Container11>
       <h1>Press the secret code!</h1>
+      <p>Pressed keys: wesbos {pressed.join(' ')}</p>
     </Container11>
   );
 };
